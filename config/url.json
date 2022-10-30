@@ -1,0 +1,26 @@
+[
+  {
+    "nombre": "elturismoencolombia",
+    "url": "https://elturismoencolombia.com/",
+    "pag": 1,
+    "categoria": "Turismo"
+  },
+  {
+    "nombre": "Google",
+    "url": "https://google.com/",
+    "pag": 2,
+    "categoria": "Buscadores"
+  },
+  {
+    "nombre": "El País",
+    "url": "https://www.elpais.com.co/",
+    "pag": 3,
+    "categoria": "Noticias"
+  },
+  {
+    "nombre": "Google",
+    "url": "https://google.com/",
+    "pag": 4,
+    "categoria": "Buscadores"
+  }
+]

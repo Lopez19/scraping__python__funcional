@@ -1,0 +1,38 @@
+[
+  {
+    "pag": 1,
+    "configuracion": {
+      "buscar": {
+        "clase": "#s",
+        "text": "Buenaventura",
+        "click": "//*[@id='header']/div[1]/div/form/div/button"
+      },
+      "selectores": {
+        "inicio": "[class='details']",
+        "entrada": ".entry-title"
+      }
+    },
+    "categoria": "Turismo"
+  },
+  {
+    "pag": 2,
+    "configuracion": {
+      "buscar": {
+        "clase": "input[type=text]",
+        "text": "Buenaventura noticias ultima hora",
+        "click": "//html/body/div[1]/div[3]/form/div[1]/div[1]/div[4]/center/input[1]"
+      }
+    },
+    "categoria": "Buscador"
+  },
+  {
+    "pag": 3,
+    "configuracion": {
+      "buscar": {
+        "clase": "#s",
+        "text": "Buenaventura"
+      }
+    },
+    "categoria": "Lucas"
+  }
+]
