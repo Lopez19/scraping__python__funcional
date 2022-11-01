@@ -24,7 +24,7 @@ if __name__ == '__main__':
         if i == c.get("pag"):
             async def main():
                 async with async_playwright() as pw:
-                    browser = await pw.chromium.launch()
+                    browser = await pw.chromium.launch(headless=False)
                     page = await browser.new_page()
 
                     # Abrir la pagina
@@ -95,6 +95,7 @@ if __name__ == '__main__':
                         await page.click(contenido.get("buscar").get("click"))
 
                         # Captura de pantalla
+                        await asyncio.sleep(10)
                         await page.screenshot(path="capturas__de__pantalla/__pagina2.png")
                         await asyncio.sleep(2)
 
